@@ -1,11 +1,16 @@
 body {
-  padding: 50;
-  margin: 50;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Calibri, Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 125%;
-  color: #333;
+  color: rgb(31, 2, 2);
   background: #998b0c;
+  width: 1100px;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  border: 25px solid rgb(22, 126, 211);
+  margin: 50; 
 }
 
 header {
@@ -23,12 +28,54 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: rgb(238, 238, 238);
+  text-align: center;
+  background: rgb(80, 59, 109);
+}
+div {
+  width: 320px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+  border: 25px solid rgb(73, 16, 139);
+  float: left;
+  margin: 25px; 
+  
+}
+section {
+  width: 320px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+  border: 25px solid rgb(7, 10, 1);
+  margin: 25px;
+  float: left;
+  
 }
 h3 {
-  font-size: 16px;
+  font-size: 16px;padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: rgb(238, 238, 238);
+  text-align: center;
+  background: rgb(80, 59, 109);
 }
 
 a {
   color: #d21034;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
